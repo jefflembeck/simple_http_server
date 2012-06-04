@@ -1,0 +1,6 @@
+A copy of the Python simpleHTTP - all credit goes to Samson Wu - http://blog.samsonis.me/2010/02/rubys-python-simplehttpserver/
+
+
+To use, make sure that you have the rack gem installed and that simple_http_server.ru is executable and in your path.
+
+
