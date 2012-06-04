@@ -1,6 +1,8 @@
-A copy of the Python simpleHTTP - all credit goes to Samson Wu - http://blog.samsonis.me/2010/02/rubys-python-simplehttpserver/
+A copy of the Python SimpleHTTPServer - all original credit goes to Samson Wu - http://blog.samsonis.me/2010/02/rubys-python-simplehttpserver/
 
+Modifications were made based off some help on stack overflow: http://stackoverflow.com/questions/3863781/ruby-rack-mounting-a-simple-web-server-that-reads-index-html-as-default
 
 To use, make sure that you have the rack gem installed and that simple_http_server.ru is executable and in your path.
+
 
 
