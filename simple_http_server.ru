@@ -12,13 +12,11 @@ run Proc.new { |env|
   index_file = @root + "#{path}index.html"
 
   if File.exists?(index_file)
-    contents = File.readlines(index_file)
     # Return the index
-    [200, {'Content-Type' => 'text/html'}, contents]
+    [200, {'Content-Type' => 'text/html'}, File.readlines(index_file)]
   else
     # Pass the request to the directory app
     Rack::Directory.new(@root).call(env)
   end
 }
-
 
