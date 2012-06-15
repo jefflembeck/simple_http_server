@@ -3,8 +3,8 @@
 
 use Rack::ContentLength
 
-# This is the root of our app
-@root = File.expand_path(File.dirname(__FILE__))
+# This is the present directory you're running this in
+@root = Dir.pwd
 
 run Proc.new { |env|
   # Extract the requested path from the request
